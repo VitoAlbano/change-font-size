@@ -1,14 +1,17 @@
 {
-  "name": "@vano/change-font-size",
+  "name": "@valano/change-font-size",
   "version": "1.0.0",
   "keywords": [
     "codex editor",
     "editor.js",
     "editorjs"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitoAlbano/change-font-size.git"
+  },
   "description": "Change font size inline tool for Editor.js",
   "license": "MIT",
-  "repository": "https://github.com/VitoAlbano/change-font-size",
   "main": "./dist/editor.change-font-size.js",
   "scripts": {
     "build": "webpack --mode production",
