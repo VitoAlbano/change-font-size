@@ -3,6 +3,7 @@
 # ChangeFontSize Tool
 
 Change font size for the [Editor.js](https://ifmo.su/editor).
+This version is CommonJS compatible.
 
 
 

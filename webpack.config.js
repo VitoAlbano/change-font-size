@@ -8,7 +8,7 @@ module.exports = {
         use: [
           {
             loader: 'babel-loader',
-            query: {
+            options: {
               presets: [ '@babel/preset-env' ],
             },
           },
@@ -23,7 +23,14 @@ module.exports = {
       },
 	  {
         test: /\.svg$/,
-        loader: 'svg-inline-loader?removeSVGTagAttrs=false'
+        use: [
+          {
+            loader: 'svg-inline-loader',
+            options: {
+              removeSVGTagAttrs: false
+            }
+          }
+        ]
       }
     ]
   },
@@ -32,6 +39,6 @@ module.exports = {
     publicPath: '/',
     filename: 'editor.change-font-size.js',
     library: 'ChangeFontSize',
-    libraryTarget: 'umd'
+    libraryTarget: 'commonjs2'
   }
 };

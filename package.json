@@ -1,8 +1,8 @@
 {
-  "name": "@quanzo/change-font-size",
+  "name": "@vano/change-font-size",
   "version": "1.0.0",
   "keywords": [
-    "codex editor",    
+    "codex editor",
     "editor.js",
     "editorjs"
   ],
@@ -18,13 +18,19 @@
     "name": "Quanzo",
     "email": "iquanzo@gmail.com"
   },
+  "contributors": [
+    {
+      "name": "Vito Albano"
+    }
+  ],
   "devDependencies": {
     "@babel/core": "^7.3.4",
     "@babel/preset-env": "^7.3.4",
-    "babel-loader": "^8.0.5",
-    "css-loader": "^1.0.0",
-    "style-loader": "^0.21.0",
-    "webpack": "^4.29.5",
-    "webpack-cli": "^3.2.3"
+    "babel-loader": "^9.2.1",
+    "css-loader": "^7.1.2",
+    "style-loader": "^4.0.0",
+    "svg-inline-loader": "^0.8.2",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
   }
 }
