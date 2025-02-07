@@ -15,25 +15,19 @@ This version is CommonJS compatible.
 Get the package
 
 ```shell
-npm i --save-dev @quanzo/change-font-size
+npm i --save-dev @valano/change-font-size
 ```
 
 Include module at your application
 
 ```javascript
-const ChangeFontSize = require('@quanzo/change-font-size');
+const ChangeFontSize = require('@valano/change-font-size');
 ```
 
 ### Download to your project's source dir
 
 1. Upload folder `dist` from repository
 2. Add `dist/editor.change-font-size.js` file to your page.
-
-### Load from CDN
-
-You can load specific version of package from [jsDelivr CDN](https://www.jsdelivr.com/package/npm/@quanzo/change-font-size).
-
-`https://cdn.jsdelivr.net/npm/@quanzo/change-font-size@1.0.0`
 
 Require this script on a page with Editor.js.
 
